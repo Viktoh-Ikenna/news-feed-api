@@ -1,0 +1,14 @@
+.side_banner{
+    width:90%;
+    height: 350px;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px 0;;
+  }
+  @media only screen and (max-width:750px){
+   .side_bar{
+     display: none !important;
+   }
+  }

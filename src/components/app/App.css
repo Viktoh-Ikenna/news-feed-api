@@ -6,14 +6,16 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.pageBody{
+  min-height: 500px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +37,16 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.placements{
+  width:80%;
+  margin: 10px auto;
+  height: 150px;
+  border: 2px solid black;
+  background-image: url("https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/media/images/banner-ads-examples-aws.jpg?jwAuTeoLXQvDzDNGQ8Q3zDmWXndEqL8V&itok=tukEXkYJ");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

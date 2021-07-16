@@ -1,0 +1,4 @@
+{
+    "presents":["react","es2015"],
+    "plugins":["transform-decorators-legacy","transform-class-property"]
+}

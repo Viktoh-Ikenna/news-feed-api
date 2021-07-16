@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './components/app/App';
+// import {AdminApp} from './adminPage/app';
 import reportWebVitals from './reportWebVitals';
+import dotenv from 'dotenv';
+import store from './components/mobXstate'
 
+export const ThemeContext = React.createContext()
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ <ThemeContext.Provider value={store}>
+  <App />
+  </ThemeContext.Provider>
+,
   document.getElementById('root')
 );
 
